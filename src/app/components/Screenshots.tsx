@@ -13,7 +13,7 @@ const screenshots = [
     image: image2,
   },
   {
-    title: 'Live Stop Info',
+    title: 'Stops & Timings',
     image: image3,
   },
   {

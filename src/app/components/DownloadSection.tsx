@@ -61,12 +61,24 @@ export function DownloadSection() {
                 <a
                   href="/punjab_electric_bus_routes.apk"
                   download
-                  className="group inline-flex items-center gap-4 px-12 py-6 bg-white text-[#1F7A5A] rounded-2xl font-bold text-xl shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105"
+                  className="
+                    group
+                    inline-flex items-center justify-center gap-4
+                    w-full sm:w-auto
+                    px-8 sm:px-12
+                    py-5 sm:py-6
+                    bg-white text-[#1F7A5A]
+                    rounded-2xl font-bold text-lg sm:text-xl
+                    shadow-xl
+                    hover:shadow-2xl
+                    active:scale-95 active:shadow-md
+                    transition-all duration-200
+                    mx-auto"
                   style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
                 >
-                  <Download className="w-8 h-8 group-hover:animate-bounce" strokeWidth={2} />
+                  <Download className="w-7 h-7 sm:w-8 sm:h-8 group-hover:animate-bounce" strokeWidth={2} />
                   Download APK Now
-                  <FileDown className="w-6 h-6" strokeWidth={2} />
+                  <FileDown className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={2} />
                 </a>
                 <p
                   className="mt-4 text-white/70 text-sm"

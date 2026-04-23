@@ -51,7 +51,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          className="text-6xl md:text-7xl lg:text-8xl font-bold text-[#1F2937] mb-6"
+          className="text-5xl md:text-7xl lg:text-8xl font-bold text-[#1F2937] mb-6"
           style={{ fontFamily: 'DM Sans, sans-serif' }}
         >
           Punjab E-Buses Routes
@@ -86,7 +86,19 @@ export function Hero() {
           <a
             href="/punjab_electric_bus_routes.apk"
             download
-            className="group relative px-8 py-4 bg-[#1F7A5A] text-white rounded-2xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 flex items-center gap-3"
+            className="
+                    group
+                    inline-flex items-center justify-center gap-4
+                    w-full sm:w-auto
+                    px-8 sm:px-12
+                    py-5 sm:py-6
+                    bg-[#1F7A5A] text-white
+                    rounded-2xl font-bold text-lg sm:text-xl
+                    shadow-xl
+                    hover:shadow-2xl
+                    active:scale-95 active:shadow-md
+                    transition-all duration-200
+                    "
             style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
           >
             <Download className="w-6 h-6 group-hover:animate-bounce" />

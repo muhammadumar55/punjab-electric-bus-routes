@@ -24,14 +24,14 @@ export function Footer() {
               <div className="flex gap-3 mb-6">
 
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/muhammad-umar-machrani55/"
                   className="bg-white/10 hover:bg-[#1F7A5A] rounded-xl p-3 transition-colors"
                   aria-label="Email"
                 >
                   <LinkedinIcon className="w-5 h-5" strokeWidth={1.5} />
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/muhammadumar55"
                   className="bg-white/10 hover:bg-[#1F7A5A] rounded-xl p-3 transition-colors"
                   aria-label="GitHub"
                 >
