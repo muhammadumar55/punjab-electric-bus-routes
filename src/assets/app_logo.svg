@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <style>
+      .green { fill: #0f5a3b; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect x="56" y="56" width="912" height="712" rx="150" ry="150" fill="#ffffff"/>
+
+  <!-- Bigger Bus (scaled & centered properly) -->
+  <g transform="translate(512,380) scale(1.35) translate(-512,-380)" class="green">
+    
+    <!-- Bus body -->
+    <rect x="362" y="238" width="300" height="300" rx="48" ry="48"/>
+
+    <!-- Window -->
+    <rect x="402" y="278" width="220" height="110" rx="16" ry="16" fill="#ffffff"/>
+
+    <!-- Headlights -->
+    <circle cx="430" cy="460" r="22" fill="#ffffff"/>
+    <circle cx="594" cy="460" r="22" fill="#ffffff"/>
+
+    <!-- Wheels -->
+    <rect x="386" y="516" width="52" height="60" rx="12" ry="12"/>
+    <rect x="586" y="516" width="52" height="60" rx="12" ry="12"/>
+
+  </g>
+</svg>
