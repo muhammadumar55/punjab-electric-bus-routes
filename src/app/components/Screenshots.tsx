@@ -1,8 +1,8 @@
 import { motion } from 'motion/react';
-import image1 from '../../assets/screen1.jpeg';
-import image2 from '../../assets/screen2.jpeg';
-import image3 from '../../assets/screen3.jpeg';
-import image4 from '../../assets/screen4.jpeg';
+const image1 = '/assets/screen1.jpeg';
+const image2 = '/assets/screen2.jpeg';
+const image3 = '/assets/screen3.jpeg';
+const image4 = '/assets/screen4.jpeg';
 const screenshots = [
   {
     title: 'City Search',
@@ -24,7 +24,7 @@ const screenshots = [
 
 export function Screenshots() {
   return (
-    <section className="relative py-24 bg-[#F5F7F6] overflow-hidden">
+    <section id="screenshots" className="relative py-24 bg-[#F5F7F6] overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}

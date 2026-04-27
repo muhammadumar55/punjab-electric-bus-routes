@@ -39,7 +39,7 @@ export function Features() {
   const sectionRef = useRef<HTMLElement>(null);
 
   return (
-    <section ref={sectionRef} className="relative py-24 bg-white overflow-hidden">
+    <section id='features' ref={sectionRef} className="relative py-24 bg-white overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-0 right-0 w-72 h-72 bg-[#1F7A5A]/5 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#2E8B6C]/5 rounded-full blur-3xl" />

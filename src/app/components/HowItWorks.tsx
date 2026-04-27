@@ -24,7 +24,7 @@ const steps = [
 
 export function HowItWorks() {
   return (
-    <section className="relative py-24 bg-white overflow-hidden">
+    <section id="how-it-works" className="relative py-24 bg-white overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-1/2 left-0 w-64 h-64 bg-[#2E8B6C]/5 rounded-full blur-3xl" />
 

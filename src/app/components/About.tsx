@@ -3,7 +3,7 @@ import { Users, Heart, Shield } from 'lucide-react';
 
 export function About() {
   return (
-    <section className="relative py-24 bg-[#F5F7F6] overflow-hidden">
+    <section id='about' className="relative py-24 bg-[#F5F7F6] overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-[#1F7A5A]/5 rounded-full blur-3xl" />
 

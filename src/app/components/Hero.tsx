@@ -1,6 +1,6 @@
 import { Download, Smartphone } from 'lucide-react';
 import { motion } from 'motion/react';
-import Logo from '../../assets/app_logo.svg';
+const Logo = '/assets/app_logo.svg';
 
 export function Hero() {
   return (
@@ -28,7 +28,7 @@ export function Hero() {
         }}
       />
 
-      <div className="relative z-10 max-w-6xl mx-auto px-6 py-20 text-center">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 py-20 text-center mt-16">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
